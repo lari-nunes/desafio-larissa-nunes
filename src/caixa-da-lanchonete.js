@@ -1,5 +1,5 @@
 class CaixaDaLanchonete {
-    calcularValorDaCompra(metodoDePagamento, itens) {
+    calcularValorDaCompra(metodoDePagamento, itensPagamento) {
        
         if (itens.length === 0) {
             return "Não há itens no carrinho de compra!";
